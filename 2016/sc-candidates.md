@@ -10,7 +10,7 @@ We are honored to announce that the following candidates are running for the ste
 
 The electronic voting period will be from June 15 to June 30, 2016. The results will be announced in the first week of July. Only registered MSR 2016 attendees can vote. We will send voting instructions by email on June 15. If you do not receive your voting instructions on June 15, please check your spam folders for an email from tzimmer(AT)microsoft.com. If you still cannot locate the  voting instructions, please email msr-sc(AT)googlegroups.com for assistance.
 
-## <a name="Bram"></a> Bram Adams
+##<a name="Bram"></a>Bram Adams
 
 Candidate statement: 
 >As member of the MSR SC, I would like to focus on how MSR can sustain its success, while not forgetting its roots as a *working* conference open to new researchers and industry practitioners.
@@ -32,7 +32,7 @@ Biography:
 
 Web-page: http://mcis.polymtl.ca/
 
-## <a name="Georgios"></a> Georgios Gousios 
+##<a name="Georgios"></a>Georgios Gousios 
 
 Candidate statement:
 >I have been part of the MSR community since my PhD days, attending my first MSR in Leipzig, 2008. During those years, I have seen the MSR conference flourishing, reaching top impact status in metrics such as Google Scholar, while still being a cozy, welcoming place for new researchers. As a member of its scientific committee, I would be glad to contribute to the following
@@ -43,11 +43,11 @@ aspects:
 >* Evolving industry participation. MSR techniques are being used by various  companies, especially in combination with CI and CD pipelines, but we seldom  see companies sharing their results with our community. I believe that we can  foster a healthy collaboration with the industry by inviting short paper (or  even paperless) submissions from industrial partners.
 
 Biography:
->Georgios Gousios is an assistant professor at the Software Science group, Radboud University Nijmegen (moving to the Web Information Systems group, TU Delft). His research interests include software engineering, software analytics and programming languages. He works in the fields of distributed software development processes, software quality, software testing, developer productivity assessment and research infrastructures. His research has been published in top venues, where he has received 4 best paper awards. In total, he has published more than 40 papers and also co-edited the ``Beautiful Architectures'' book (OReilly, 2009). He is an avid committer to open source projects as well as the main author of the GHTorrent data collection and curation framework and the Alitheia Core repository mining platform. His research results are being used by hundreds of researchers as well as companies like Microsoft and GitHub. Dr. Gousios holds a PhD in Software Engineering (mining software repositories) from the Athens University of Economics and Business (AUEB) and an MSc in software engineering from the University of Manchester, both with distinction.
+>Georgios Gousios is an assistant professor at the Software Science group, Radboud University Nijmegen (moving to the Web Information Systems group, TU Delft). His research interests include software engineering, software analytics and programming languages. He works in the fields of distributed software development processes, software quality, software testing, developer productivity assessment and research infrastructures. His research has been published in top venues, where he has received 4 best paper awards. In total, he has published more than 40 papers and also co-edited the "Beautiful Architectures" book (OReilly, 2009). He is an avid committer to open source projects as well as the main author of the GHTorrent data collection and curation framework and the Alitheia Core repository mining platform. His research results are being used by hundreds of researchers as well as companies like Microsoft and GitHub. Dr. Gousios holds a PhD in Software Engineering (mining software repositories) from the Athens University of Economics and Business (AUEB) and an MSc in software engineering from the University of Manchester, both with distinction.
 
 Web page: http://gousios.gr/
 
-## <a name="Emad"></a> Emad Shihab
+##<a name="Emad"></a>Emad Shihab
 
 Candidate statement:
 >I have been an active member of the MSR community since my PhD student days; when I attended the 5th MSR conference. I was involved in the MSR community in different roles, serving as the web chair, challenge chair, data showcase chair and as a PC member for many years. I promise to work tirelessly to make future MSRs fruitful and welcoming to all, especially students and young researchers. If elected, I would like to see MSR integrate novel ways to deal with (amongst others) a) our rapidly growing community, b) the growing volume and variety of data at our disposable, and c) the actionability and applicability of our MSR techniques. In particular, I would like to introduce a short (late night or overnight) challenge during the MSR conference to facilitate collaboration, especially for newcomers. I would also like to create a database of expertise and data to enable rapid developments of MSR techniques - in many occasions we end up mining data that someone else already has. I would also like to increase the involvement of industry and the open source community in MSR, through panels and invited MSR-reflections abstracts, so our techniques can be actionably grounded. My prior experience involves community service where I served and successfully organized a number of workshops and tacks at MSR and SANER. I am excited at the potential of being part of, and would be honoured to serve on, the MSR steering committee. 
@@ -57,7 +57,7 @@ Biography:
 
 Web page: http://das.encs.concordia.ca/members/emad-shihab/
 
-## <a name="Diomidis"></a> Diomidis Spinellis
+##<a name="Diomidis"></a>Diomidis Spinellis
 
 Candidate statement:
 >Some statements start with by describing how the world is coming to an end and how the candidate plans to save it.  This is not such a statement, because the MSR conference and its community appear to be in excellent health and facing great prospects.  This brings MSR in a position to build on its strengths by innovating and acting as a role model for the wider computer science community.  Here are the ideas (think of them as functional requirements) and values (non-functional requirements) I put forward with my Steering Committee candidacy.
