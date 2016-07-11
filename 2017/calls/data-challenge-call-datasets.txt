@@ -1,0 +1,65 @@
+Call for datasets
+14th Intl. Working Conference on Mining Software Repositories
+Deadline: August 1st
+
+----------------------------------------------------------------
+
+MSR 2017 Open Call for Mining Challenge Proposals
+
+This year we are soliciting mining challenge proposals from the MSR
+community. We are making this call available prior to MSR 2017 in the
+hopes that members of the MSR community will take this time to
+collaborate and brainstorm on creative and high quality ideas for the
+MSR 2017 mining challenge. Submissions should include the following
+information within 1 page:
+
+    1. Title
+    2. What is your dataset?
+    3. What is the size of it?
+    4. How accessible is it and how the data can be obtained?
+    5. How generalizable is it?
+    6. Does it has specialized components?
+    7. What would a challenger need to work with the dataset?
+    8. What kind of questions do you expect challengers to answer?
+    9. Give us a small sample of the data.
+
+Submissions of should be 1 page with an optional 3 page appendix in
+standard ACM format. As an incentive, the selected winning submission
+will appear in the MSR 2017 proceedings and the challenge papers that
+use the data set will be required to cite the challenge paper or an
+existing paper about the data set selected by the winning proposal
+team. Submissions will be examined and discussed by the MSR 2017 PC
+chairs, General Chair, and potentially steering committee members in
+cases of conflict of interest. The challenge chairs will be those from
+the winning proposal's team; the challenge chairs choose the MSR 2017
+Mining Challenge program committee.
+
+The PC of the challenge track will be finalized by August 31st, 2016,
+and the challenge CFP along with the PC will be announced on August
+25th, 2016 along with a public release of the challenge data. By
+making the challenge data set available by late August, we hope that
+many student teams will be able to use the challenge data set for
+their class projects. The submission, reviewing, and presentation of
+challenge papers will be conducted in the same way as previous years.
+
+MSR 2017 Organization/Proposal Reviewers:
+
+    General Chair: Jesus M. Gonzalez-Barahona, Universidad Rey Juan
+                   Carlos
+    PC Co-Chair: Lin Tan, University of Waterloo
+    PC Co-Chair: Abram Hindle, University of Alberta
+
+MSR 2017 Web Site:
+http://2017.msrconf.org/
+
+Open Challenge Submission Web Site:
+https://easychair.org/conferences/?conf=msr2017cp
+
+Timeline:
+
+    Deadline for proposals: August 1st, 2016
+    Proposal accepted and all submitters notified: August 5th, 2016
+    Challenge PC formed: August 31st, 2016
+    Challenge CFP: August 31st, 2016
+    Challenge data made available: August 31st, 2016
+    Challenge papers deadline: Feb 20th, 2017 
