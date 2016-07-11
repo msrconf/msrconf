@@ -7,11 +7,8 @@ Deadline: August 1st
 MSR 2017 Open Call for Mining Challenge Proposals
 
 This year we are soliciting mining challenge proposals from the MSR
-community. We are making this call available prior to MSR 2017 in the
-hopes that members of the MSR community will take this time to
-collaborate and brainstorm on creative and high quality ideas for the
-MSR 2017 mining challenge. Submissions should include the following
-information within 1 page:
+community. Submissions should include the following information 
+within 1 page:
 
     1. Title
     2. What is your dataset?
