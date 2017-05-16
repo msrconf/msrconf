@@ -1,4 +1,4 @@
-#MSR Steering Committee Elections 2016
+# MSR Steering Committee Elections 2016
 
 The MSR conference will have open elections for two new members for the MSR Steering Committee (SC). The Steering Committee provides general guidance and direction for the MSR Conference; it also selects future GC and PC Chairs. The term is three years. Members of the SC are expected to participate in MSR SC meetings, that will be held via Skype calls and physically during ICSE week. 
 
@@ -10,7 +10,7 @@ We are honored to announce that the following candidates are running for the ste
 
 The electronic voting period will be from June 15 to June 30, 2016. The results will be announced in the first week of July. Only registered MSR 2016 attendees can vote. We will send voting instructions by email on June 15. If you do not receive your voting instructions on June 15, please check your spam folders for an email from tzimmer(AT)microsoft.com. If you still cannot locate the  voting instructions, please email msr-sc(AT)googlegroups.com for assistance.
 
-##<a name="Bram"></a>Bram Adams
+## <a name="Bram"></a>Bram Adams
 
 Candidate statement: 
 >As member of the MSR SC, I would like to focus on how MSR can sustain its success, while not forgetting its roots as a *working* conference open to new researchers and industry practitioners.
@@ -32,7 +32,7 @@ Biography:
 
 Web-page: http://mcis.polymtl.ca/
 
-##<a name="Georgios"></a>Georgios Gousios 
+## <a name="Georgios"></a>Georgios Gousios 
 
 Candidate statement:
 >I have been part of the MSR community since my PhD days, attending my first MSR in Leipzig, 2008. During those years, I have seen the MSR conference flourishing, reaching top impact status in metrics such as Google Scholar, while still being a cozy, welcoming place for new researchers. As a member of its scientific committee, I would be glad to contribute to the following
@@ -47,7 +47,7 @@ Biography:
 
 Web page: http://gousios.gr/
 
-##<a name="Emad"></a>Emad Shihab
+## <a name="Emad"></a>Emad Shihab
 
 Candidate statement:
 >I have been an active member of the MSR community since my PhD student days; when I attended the 5th MSR conference. I was involved in the MSR community in different roles, serving as the web chair, challenge chair, data showcase chair and as a PC member for many years. I promise to work tirelessly to make future MSRs fruitful and welcoming to all, especially students and young researchers. If elected, I would like to see MSR integrate novel ways to deal with (amongst others) a) our rapidly growing community, b) the growing volume and variety of data at our disposable, and c) the actionability and applicability of our MSR techniques. In particular, I would like to introduce a short (late night or overnight) challenge during the MSR conference to facilitate collaboration, especially for newcomers. I would also like to create a database of expertise and data to enable rapid developments of MSR techniques - in many occasions we end up mining data that someone else already has. I would also like to increase the involvement of industry and the open source community in MSR, through panels and invited MSR-reflections abstracts, so our techniques can be actionably grounded. My prior experience involves community service where I served and successfully organized a number of workshops and tacks at MSR and SANER. I am excited at the potential of being part of, and would be honoured to serve on, the MSR steering committee. 
@@ -57,7 +57,7 @@ Biography:
 
 Web page: http://das.encs.concordia.ca/members/emad-shihab/
 
-##<a name="Diomidis"></a>Diomidis Spinellis
+## <a name="Diomidis"></a>Diomidis Spinellis
 
 Candidate statement:
 >Some statements start with by describing how the world is coming to an end and how the candidate plans to save it.  This is not such a statement, because the MSR conference and its community appear to be in excellent health and facing great prospects.  This brings MSR in a position to build on its strengths by innovating and acting as a role model for the wider computer science community.  Here are the ideas (think of them as functional requirements) and values (non-functional requirements) I put forward with my Steering Committee candidacy.
