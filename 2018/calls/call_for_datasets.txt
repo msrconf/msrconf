@@ -1,0 +1,62 @@
+Call for datasets
+15th Intl. Conference on Mining Software Repositories
+Deadline: July 25th
+ 
+----------------------------------------------------------------
+ 
+MSR 2018 Open Call for Mining Challenge Proposals
+ 
+This year we are soliciting mining challenge proposals from the MSR
+community. Submissions should include the following information 
+within 1 page:
+ 
+    1. Title
+    2. What is your dataset?
+    3. What is the size of it?
+    4. How accessible is it and how can the data be obtained?
+    5. How generalizable is it?
+    6. Does it has specialized components?
+    7. What would a challenger need to work with the dataset?
+    8. What kind of questions do you expect challengers to answer?
+    9. Give us a small sample of the data.
+ 
+Submissions should be 1 page with an optional 3 page appendix in
+standard ACM format. As an incentive, the selected winning submission
+will appear in the MSR 2018 proceedings and the challenge papers that
+use the data set will be required to cite the challenge paper or an
+existing paper about the data set selected by the winning proposal
+team. Submissions will be examined and discussed by the MSR 2018 PC
+chairs, General Chair, and potentially steering committee members in
+cases of conflict of interest. The challenge chairs will be those from
+the winning proposal's team; the challenge chairs choose the MSR 2018
+Mining Challenge program committee.
+ 
+The PC of the challenge track will be finalized by September 13th, 2017,
+and the challenge CFP along with the PC will be announced on September
+13th, 2017 along with a public release of the challenge data. By
+making the challenge data set available by late August, we hope that
+many student teams will be able to use the challenge data set for
+their class projects. The submission, reviewing, and presentation of
+challenge papers will be conducted in the same way as previous years.
+ 
+MSR 2018 Organization/Proposal Reviewers:
+ 
+    General Chair: Andy Zaidman, Delft University of Technology
+    PC Co-Chair: Emily Hill, Drew University
+    PC Co-Chair: Yasutaka Kamei, Kyushu University
+ 
+MSR 2018 Web Site:
+   http://conf.researchr.org/home/msr-2018
+
+Open Challenge Submission Web Site:
+   https://easychair.org/conferences/?conf=msr2018
+ 
+Timeline:
+ 
+    Deadline for proposals: July 25th, 2017
+    Proposal accepted and all submitters notified: August 3rd, 2017
+    Challenge PC formed: September 13th, 2017
+    Challenge CFP: September 13th, 2017
+    Challenge data made available: September 13th, 2017
+    Challenge papers deadline: Feb 20th, 2018 (tentative)
+ 
