@@ -1,0 +1,53 @@
+Thanks a lot for registering to MSR 2017. This message intends to inform about some practical details:
+
+* The program and schedule is already online 
+
+http://2017.msrconf.org/#/program
+
+It includes links to the preprints that were published by their authors. If you are an author, and want your preprint linked, just tweet the link with the hashtag #MSR17.
+
+* If you want, you can use social media to promote your paper, to inform about links to your preprints and/or related materials, or just to tell whatever you want related to MSR. Please use the hashtag #MSR17.
+
+* The venue will be in Auditorios Puerto Madero of Pontificia Universidad Catolica Argentina, in Buenos Aires. More specifically at the Building San Jose - Auditoriums UCA (Edificio San José - Auditorios UCA), Av. Alicia M. de Justo 1600.
+
+http://icse2017.gatech.edu/venue#sheraton_and_uca
+
+Note that UCA has several 4 large (very similar) buildings along Av. Alicia M. de Justo, between roads Azucena Villaflor and Rosario Vera Peñaloza. MSR will be at the southernmost building, the San José Building. The building on its southern end looks onto Rosario Vera Peñaloza road. However, the entrance to the conference is on the northern end of the building. See map.
+
+https://goo.gl/maps/xkwrUJjFcBS2
+
+We will be in rooms "Auditorio 1" and "Cine".
+
+http://www.uca.edu.ar/index.php/site/index/en/uca/auditorios-uca-puerto-madero/
+
+* Please note that at the end of the last official session on Saturday (at 17:30) we will have BoFs (Birds of a Feather sessions). Those are unofficial, interactive sessions, for letting people talk about any specific issue that is of interest, related to MSR. One of the BoFs is about "Tools for MSR", and you can participate with a brief presentation of your tool of choice, or just your opinions about the matter. The topic for the second one is still open: let us know if you will be interested in organizing it, by proposing a topic and caring to chair it.
+
+* Please note as well that we will have several "Plenary Discussion" sessions. Those are expected to be highly interactive sessions, where we can discuss about MSR matters. Please, bring your opinions with you!
+
+* On the first day (Saturday 20th) we will have the MSR dinner in El Mirasol at Puerto Madero
+
+http://www.elmirasol.com.ar/es/local/puerto-madero-0
+
+Address: Av. Alicia Moreau de Justo 202
+
+The access to the MSR dinner is included with the registration to MSR. There are some extra seats available, that can be purchased at the ICSE registration site:
+
+https://www.regonline.com/builder/site/Default.aspx?EventID=1849059
+
+* On the second day (Sunday 21th) we are planning for a MSR social event after the Closing Session, in On Tap at Retiro, sponsored by Source{d}
+
+https://www.meetup.com/es-ES/srcd-tech-talks/events/239640161/?eventId=239640161
+
+Address: Marcelo T de Alvear 834
+
+http://sourced.tech
+
+* We thank our sponsor Microsoft, which has donated to help with the organization of the MSR
+
+http://microsoft.com
+
+* We thank ICSE organization for all the support in organizing MSR
+
+See you in Buenos Aires!
+
+        Jesus (MSR 2017 General Chair)
