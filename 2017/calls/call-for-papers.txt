@@ -1,0 +1,163 @@
+——————MSR 2017: Call for Papers———————
+
+MSR 2017
+The 14th International Conference on Mining Software Repositories
+May 20-21, 2017. Buenos Aires, Argentina.
+
+Co-located with the 39th ACM/IEEE International Conference on Software
+Engineering (ICSE 2017)
+
+http://2017.msrconf.org
+Twitter: @msrconf
+http://www.facebook.com/msrconf
+
+=================================================================
+
+Important Dates
+
+* Research Papers
+Abstract Due 23:59 AOE, February 3, 2017
+Papers Due 23:59 AOE, February 10, 2017
+Author Notification March 15, 2017
+Camera Ready March 30, 2017
+
+* Mining Challenge
+Papers Due 23:59 AOE, February 20, 2017
+Author Notification March 8, 2017
+Camera Ready March 17, 2017
+
+* Data Showcase
+Papers Due 23:59 AOE, February 20, 2017
+Author Notification March 8, 2017
+Camera Ready March 17, 2017
+
+=================================================================
+
+What Is New?
+
+MSR 2017 will conduct double-blind reviewing, the very first time at MSR. MSR 2017 submissions should not reveal the identity of the authors in any way. Authors should leave out author names and affiliations from the body of their submission. They should also ensure that any citations to related work by themselves is written in third person, that is, "the prior work of XYZ" as opposed to "our prior work". Authors having further questions on double-blind reviewing are encouraged to contact the Program Co-Chairs by email.
+
+=================================================================
+
+Call For Papers
+
+Software repositories such as source control systems, archived communications between project personnel, and defect tracking systems are used to help manage the progress of software projects. Software practitioners and researchers are recognizing the benefits of mining this information to support the maintenance of software systems, improve software design/reuse, and empirically validate novel ideas and techniques. Research is now proceeding to uncover the ways in which mining these repositories can help to understand software development and software evolution, to support predictions about software development, and to exploit this knowledge in planning future development. The goal of this two-day international conference is to advance the science and practice of software engineering via the analysis of data stored in software repositories.
+
+This year, we solicit three types of papers: research, practice, and data. As in previous MSR editions, there will be a Mining Challenge and a special issue of the best MSR papers published in the Empirical Software Engineering journal. For the research and practice papers, we especially encourage submissions that facilitate reproducibility and follow up research by publicly providing data sets and tools. Publicly providing reusable research artifacts (data or tools) is not mandatory, but will strengthen the reproducibility of the research, which is an explicit evaluation criterion.
+
+The impact of the MSR conference is similar to a CORE A conference, which is an "excellent conference, and highly respected in a discipline area". For additional information concerning the impact and value of MSR publications, please consult this document.
+
+* Research Papers
+Research papers can be short papers (4 pages plus 1 additional page for references) and full papers (10 pages plus 2 additional pages for references). Short research papers should discuss controversial issues in the field, or describe interesting or thought provoking ideas that are not yet fully developed. Accepted short papers will present their ideas in a short lightning talk. Full research papers are expected to describe new research results, and have a higher degree of technical rigor than short papers.
+
+** Practice Experiences
+MSR encourages the submission of research papers on practice experiences. They should report experiences of applying mining repository algorithms in an industry/open source organization context. They aim at reporting positive or negative experiences of applying known algorithms, but adapting existing algorithms or proposing new algorithms for practical use would be plus.
+
+** Reusable Tools
+MSR wants to promote and recognize the creation and use of tools that are designed and built not only for a specific research project, but for the MSR community as a whole. Those tools may let researchers focus on specific aspects of research, let their work be more reproducible, lower the barriers to reuse previous research efforts. Therefore, MSR encourages the submission of papers about these tools. These papers can be descriptions of tools built by the authors, that can be used by other researchers, and/or descriptions of use of tools built by others to obtain some specific research results in the area of mining software repositories.
+
+The public availability of the tool and its internal details, its usefulness for other researchers, the measures taken to simplify its installation and use, and the availability of documentation about it should be clearly discussed in the paper. Both long papers, for complete descriptions of mature tools and/or use cases, and short papers, for summaries of promising use cases and tools, will be accepted. The papers will be reviewed both on their academic merits, and on the specific usefulness of the tools, and the experiences described, for the whole MSR community.
+
+** Submission and Review of Research Papers
+All research papers, including those describing practical experiences or tools, will face the same level of review and scrutiny. To take their peculiarities into account, if you consider a paper qualifies as practice or tool paper, specify that using the corresponding option when submitting.
+
+* Data Showcase
+We want to encourage researchers to share their data. Data papers should describe data sets curated by their authors and made available to others. They are expected to be at most 4 pages long and should address the following: description of the data, including its source; methodology used to gather it; description of the schema used to store it, and any limitations and/or challenges of this data set. The data should be made available at the time of submission of the paper for review, but will be considered confidential until publication of the paper. Further details about data papers will be available on the conference web page.
+
+* Mining Challenge
+We invite researchers to demonstrate the usefulness of their mining tools on preselected software repositories and summarize their findings in a challenge report (4 pages). Please visit the conference web page for details about the Mining Challenge.
+
+* EMSE Special Issue
+A selection of the best research and data papers will be invited for consideration in a special issue of the Springer journal Empirical Software Engineering (EMSE) edited by Springer.
+
+* Topics
+Papers may address issues along the general themes, including but not limited to the following:
+
+- Analysis of software ecosystems and mining of repositories across multiple projects
+- Models for social and development processes that occur in large software projects
+- Prediction of future software qualities via analysis of software repositories
+- Models of software project evolution based on historical repository data
+- Characterization, classification, and prediction of software defects based on analysis of software repositories
+- Techniques to model reliability and defect occurrences
+- Search-driven software development, including search techniques to assist developers in finding suitable components and code fragments for reuse, and software search engines
+- Analysis of change patterns and trends to assist in future development
+- Visualization techniques and models of mined data
+- Techniques and tools for capturing new forms of data for storage in software repositories, such as effort data, fine-grained changes, and refactoring
+- Characterization of bias in mining and guidelines to ensure quality results
+- Privacy and ethics in mining software repositories
+- Meta-models, exchange formats, and infrastructure tools to facilitate the sharing of extracted data and to encourage reuse and repeatability
+- Empirical studies on extracting data from repositories of large long-lived and/or industrial projects
+- Methods of integrating mined data from various historical sources
+- Approaches, applications, and tools for software repository mining
+- Mining software licensing and copyrights
+- Mining execution traces and logs
+- Mining code review repositories
+- Mining interaction data repositories
+- Mining mobile app stores and app reviews
+- Analysis of natural language artifacts in software repositories
+- Energy aware mining
+- Studies of programming language features and their usage in code corpuses
+
+* Open Science Practices
+MSR is experimenting with encouraging authors to use open science to make their research, data and dissemination accessible to anybody in the world with an Internet connection. Here follow our guidelines and recommendations for open access, open data and open source.
+
+The following guidelines are recommendations and not mandatory. Your choice to use open science or not will not affect the review process for your paper.
+
+** Open Access
+We encourage authors to self-archive their pre- and post-prints in open, preserved repositories. This is legal and allowed by all major publishers including ACM and IEEE (granted in the copyright transfer agreement), and it lets anybody in the world reach your paper.
+
+If the authors of your paper wish to do this, we recommend:
+
+- Upon submission, submit your paper to arXiv.org<http://arxiv.org> and choose the arXiv.org<http://arxiv.org> perpetual, non-exclusive license to distribute. The paper version at this point is before peer-reviewed, and it is called preprint.
+- Upon acceptance, revise your article according to the peers' comments, generate a PDF version of it, and submit it to arXiv.org<http://arxiv.org>, which supports article versioning.
+
+Note that you are not allowed to self-archive the PDF of the published article, that is the one you can find in ACM DL or IEEE Xplore. Only self-archive your own generated PDFs.
+
+We encourage you to use a preserved, archived repository instead of your personal website. Personal websites are prone to changes and errors, and more than 30% of them will not work in a 4 years period.
+
+** Open Data and Open Source
+We encourage authors of accepted papers to make their data public, in order to enhance the transparency of the process and the reproducibility of the results.
+
+If the authors of your paper wish to do this, we recommend:
+
+- Archive their data on preserved archives such as zenodo.org<http://zenodo.org> and figshare.com<http://figshare.com>, so that the data will receive a DOI and become citable.
+- Use the CC0 dedication when publishing the data (automatic when using zenodo and figshare), as explained on the Creative Commons site.
+
+Similarly, we encourage authors to make their research software accessible as open source and citable.
+
+Similarly to our open access, we encourage you to avoid putting the data on your own websites or services intended for generic file sharing, since more than 30% of them will not work in a 4 years period.
+
+These open science guidelines are based on those of the CHASE Workshops.
+
+* Submission (please read the Double-blind submission guideline below)
+
+All papers must conform at time of submission to the ICSE/MSR 2017 Formatting Instructions and must not exceed the page limits (research papers: 10 + 2 pages; short papers: 4 + 1 pages; data papers: 4 pages; challenge reports: 4 pages), including all text, references, appendices and figures. All submissions must be in English and in PDF format. Papers submitted for consideration should not have been published elsewhere and should not be under review or submitted for review elsewhere for the duration of consideration. ACM plagiarism policies and procedures shall be followed for cases of double submission.
+
+Papers must be submitted electronically through EasyChair https://easychair.org/conferences/?conf=msr2017.
+
+Upon notification of acceptance, all authors of accepted papers will be asked to complete an ACM Copyright form and will receive further instructions for preparing their camera ready versions. At least one author of each paper is expected to present the results at the MSR 2017 conference. All accepted contributions will be published in the conference electronic proceedings.
+
+All reviewers, authors, chairs, and attendees will be expected to uphold the ACM Code of Conduct.
+
+* Double-blind submission guideline
+
+MSR 2017 will conduct double-blind reviewing, the very first time at MSR. MSR 2017 submissions should not reveal the identity of the authors in any way. Authors should leave out author names and affiliations from the body of their submission. They should also ensure that any citations to related work by themselves is written in third person, that is, "the prior work of XYZ" as opposed to "our prior work". Authors having further questions on double-blind reviewing are encouraged to contact the Program Co-Chairs by email.
+
+=================================================================
+
+General Chair: Jesus M. Gonzalez-Barahona, Universidad Rey Juan Carlos
+Program Co-Chair: Abram Hindle, University of Alberta
+Program Co-Chair: Lin Tan, University of Waterloo
+Mining Challenge Co-Chair: Moritz Beller, TU Delft
+Mining Challenge Co-Chair: Georgios Gousios, TU Delft
+Mining Challenge Co-Chair: Andy Zaidman, TU Delft
+Data Showcase Chair: Megan Squire, Elon University
+Web Chair: Thibaud Lutellier, University of Waterloo
+Publicity Chair: Gema Rodríguez-Pérez, University Rey Juan Carlos
+Most Influential Paper Award Co-Chair: Michele Lanza, Università della Svizzera italiana - USI
+Most Influential Paper Award Co-Chair: Harald Gall, University of Zurich
+Free, Open Source Software Chair: Stefano Zacchiroli, University Paris Diderot and Inria
+
+http://2017.msrconf.org/#/organization
+
+

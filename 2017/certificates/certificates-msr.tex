@@ -1,0 +1,366 @@
+%%-------------------------------------------
+%% MSR 2017 certificates template
+%% Author: Jesus M. Gonzalez-Barahona
+%%
+%% Based on the work by Rajdeep Kaur 
+%% https://rajdeeppanesar.wordpress.com/latex/making-certificate-using-latex/
+%%
+%% Install LaTeX (eg, pacakge texlive-full in Debian)
+%% 
+%% Create data*.csv with the data for the certificates, as follows:
+%%
+%% data-mip.csv: MIP data (Title,Names)
+%% data-awards.csv: MSR Awards data (Title,Name)
+%% data-challenge.csv: Mining Challenge data (Award,Title,Names)
+%% data-showcase.csv: Data Showcase data (Title,Names)
+%% data-distinguished.csv: ACM Distinguished Papers (Title, Names)
+%%
+%% Logos used: logo_acm-1024px logo_sigsoft logo_msr.jpg
+%%
+%% To compile:
+%% 
+%% pdflatex certificates.tex
+%%
+%% Prepared to print on US letter paper, with 1.4 inches for margin
+%%
+%% If you need to adapt it to other editions of MSR, change the names
+%% in this file (general chair, program co-chairs, awards chairs, etc.),
+%% the dates and place of the venue,
+%% and produce the CSV files with the people / papers to certificate.
+%%
+
+\documentclass[fontsize=15pt,letterpaper]{scrartcl}              %class
+%\usepackage[landscape,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %for layout
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.4in,right=1.4in,top=1.4in,bottom=1.4in]{geometry} %for layout
+\usepackage{graphicx}         %for including images
+\usepackage{lmodern} % For using scalable fonts in Latin Modern
+
+%%-------------------
+%% Load data from CSV files
+%%-------------------
+
+\usepackage{datatool}  % To include database files as .csv 
+\DTLloaddb{mip}{data-mip.csv}    % MIP data (Title,Names)
+\DTLloaddb{awards}{data-awards.csv} % Awards data (Title,Name)
+\DTLloaddb{challenge}{data-challenge.csv} % Mining Challenge data (Award,Title,Names)
+\DTLloaddb{showcase}{data-showcase.csv} % Data Showcase data (Title,Names)
+\DTLloaddb{distinguished}{data-distinguished.csv} % ACM Distinguished Papers (Title, Names)
+
+%%---------------------
+%% Header for all MSR certificates
+%%---------------------
+
+\def\msrheader{
+   \centering{
+   \includegraphics[height=1in]{logo_msr}  %Here include left side image
+   }
+   
+   \vspace{.1in}
+   \hrule height 4pt
+   \vspace{.2in}
+}
+
+%%---------------------
+%% Header for all ACM SIGSOFT certificates
+%%---------------------
+
+\def\acmheader{
+   \begin{minipage}[c]{1.5in}
+     \includegraphics[height=1in]{logo_acm-1024px}  %Here include left side image
+   \end{minipage}
+   \hfill
+   %=============================
+   \begin{minipage}[c]{2.5in}
+     \includegraphics[height=1in]{logo_sigsoft}  %here include right side image
+   \end{minipage}
+ 
+   \vspace{.1in}
+   \hrule height 4pt
+   \vspace{.2in}
+}
+
+%%---------------------
+%% Title for MSR conference (title, date, place)
+%%---------------------
+
+\def\msrtitle{
+   {\centering
+     {\Large\bfseries International Conference on \\
+       Mining Software Repositories \\}
+   }
+   \vspace{.1in}
+   {\centering
+     {\large May 20-21 ~~~~~ Buenos Aires, Argentina \\}
+   }
+}
+
+%%---------------------
+%% MSR chairs, for signatures
+%%---------------------
+
+\def\msrchairs{
+   \begin{minipage}[t]{1.5in}
+     \sigskip \signature{}{Jesus M. \\ Gonzalez--Barahona \\ General Chair }
+   \end{minipage}
+   \hfill
+   \begin{minipage}[t]{1.5in}
+     \sigskip \signature{}{Lin \\ Tan \\ Program Co--Chair }
+   \end{minipage}
+   \hfill
+   \begin{minipage}[t]{1.5in}
+     \sigskip \signature{}{Abram \\ Hindle \\ Program Co--Chair }
+   \end{minipage}
+}
+
+%%-------------------
+%% Macrtos for signatures
+%%-------------------
+
+\def\signature#1#2{\parbox[b]{1in}{\smash{#1}\vskip12pt}
+\hfill \parbox[t]{1.5in}{\shortstack{\vrule width 1.5in height 0.4pt\\\small#2}}}
+\def\sigskip{\vskip0.4in plus 0.1in}
+\def\beginskip{\vskip0.5875in plus 0.1in}
+
+%%-------------------
+%% Other stuff
+%%-------------------
+
+\pagestyle{empty}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+%%-----------------------------------------------------------
+%%
+%% MIP
+%%
+%%-----------------------------------------------------------
+
+\DTLforeach{mip}{\title=Title, \names=Names}{
+
+  \msrheader
+
+  {\centering     
+    {\huge\bfseries MSR 2007 \\}
+    {\LARGE\bfseries Most Influential Paper Award\\}
+    {\large\bfseries (awarded at MSR 2017) \\}
+  }
+
+  \vspace{.2in}
+  \msrtitle
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries Presented to \\}
+    {\Large\bfseries \names \\}
+  }
+  \vspace{.1in}
+  
+  {\centering
+    {\bfseries for the paper \\}
+    {\Large\bfseries \title \\}
+  }
+
+  \vfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Michele Lanza \\ Most Influential \\ Paper Award \\ Co--Chair }
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Harald Gall \\ Most Influential \\ Paper Award \\ Co--Chair }
+  \end{minipage}
+  \newpage
+}
+
+%%-----------------------------------------------------------
+%%
+%% Awards (Early Career, Foundational)
+%%
+%%-----------------------------------------------------------
+
+
+\DTLforeach{awards}{\title=Title, \name=Name}{
+  \msrheader
+  \vspace{.5in}
+  
+  {\centering     
+    {\huge\bfseries MSR \\}
+    {\LARGE\bfseries \title \\}
+  }
+
+  \vspace{.2in}
+  \msrtitle
+  \vspace{.6in}
+
+  {\centering
+    {\large\bfseries Presented to \\}
+    {\huge\bfseries \name \\}
+  }
+
+  \vfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Massimiliano Di Penta \\ Awards Co-Chair }
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Ahmed E. Hassan \\ Awards Co-Chair }
+  \end{minipage}
+  \newpage
+}
+
+%%-----------------------------------------------------------
+%%
+%% Keyynote
+%%
+%%-----------------------------------------------------------
+
+  \msrheader
+  \vspace{.5in}
+  
+  {\centering     
+    {\huge\bfseries MSR 2017\\}
+    {\large\bfseries recognition as\\}
+    {\LARGE\bfseries Keynote Speaker \\}
+  }
+
+  \vspace{.2in}
+  \msrtitle
+  \vspace{.6in}
+
+  {\centering
+    {\large\bfseries Presented to \\}
+    {\huge\bfseries Diomidis Spinellis \\}
+  }
+
+  \vfill
+  \msrchairs
+  \newpage
+
+%%-----------------------------------------------------------
+%%
+%% Mining Challenge
+%%
+%%-----------------------------------------------------------
+
+\DTLforeach{challenge}{\award=Award, \title=Title, \names=Names}{
+
+  \msrheader
+
+  {\centering     
+    {\huge\bfseries MSR 2017 \\}
+    {\LARGE\bfseries \award \\}
+  }
+
+  \vspace{.2in}
+  \msrtitle
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries Presented to \\}
+    {\Large\bfseries \names \\}
+  }
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries for the paper \\}
+    {\Large\bfseries \title \\}
+  }
+
+  \vfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Moritz Beller \\ Mining Challenge \\ Co--Chair}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Georgios Gousios \\ Mining Challenge \\ Co--Chair}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Andy Zaidman \\ Mining Challenge \\ Co--Chair}
+  \end{minipage}
+  \newpage
+}
+
+%%-----------------------------------------------------------
+%%
+%% Data Showcase
+%%
+%%-----------------------------------------------------------
+
+\DTLforeach{showcase}{\title=Title, \names=Names}{
+
+  \msrheader
+
+  {\centering     
+    {\huge\bfseries MSR 2017 \\}
+    {\LARGE\bfseries Best Data Showcase Contribution \\}
+  }
+
+  \vspace{.2in}
+  \msrtitle
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries Presented to \\}
+    {\Large\bfseries \names \\}
+  }
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries for the paper \\}
+    {\Large\bfseries \title \\}
+  }
+
+  \vfill
+
+  \centerline{
+  \begin{minipage}[t]{1.5in}
+    \sigskip \signature{}{Megan Squire \\ Data Showcase Chair}
+  \end{minipage}
+  }
+  
+  \newpage
+}
+
+%%-----------------------------------------------------------
+%%
+%% ACM Distinguished paper awards
+%%
+%%-----------------------------------------------------------
+
+\DTLforeach{distinguished}{\title=Title, \names=Names}{
+
+  \acmheader
+
+  {\centering 
+    {\LARGE\bfseries Distinguished Paper Award\\}
+    {\Huge\bfseries MSR 2017 \\}
+  }
+
+  \vspace{.2in}
+
+  {\centering
+    {\Large\bfseries ACM SIGSOFT \\}
+  }
+  \msrtitle
+
+  \vspace{.2in}
+
+  {\centering
+    {\bfseries Presented to \\}
+    {\Large\bfseries \names \\}
+  }
+  \vspace{.2in}
+  
+  {\centering
+    {\bfseries for the paper \\}
+    {\Large\bfseries \title \\}
+  }
+
+  \vfill
+  \msrchairs
+
+  \newpage
+}
+\end{document}
