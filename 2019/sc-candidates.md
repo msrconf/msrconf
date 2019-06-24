@@ -9,7 +9,9 @@ We are honored to announce that the following candidates are running for the ste
 * [Baishakhi Ray](#Ray)
 * [Xin Xia](#Xia)
 
-The electronic voting period will be from June 24 to July 8, 2019. The results will be announced in the mid July. Only registered MSR 2019 attendees can vote. We will send voting instructions by email on June 24, 2019
+The electronic voting period will be from June 24 to July 8, 2019. The results will be announced in the mid July. Only registered MSR 2019 attendees can vote. We will send voting instructions by email on June 24, 2019.
+
+The current members of the Steering Committee are listed here: http://www.msrconf.org/sc
 
 ## <a name="Bezemer"></a>Cor-Paul Bezemer
 
