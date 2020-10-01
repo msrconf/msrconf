@@ -6,7 +6,7 @@ We are honored to announce that the following candidates are running for the ste
 * [Chris Bird](#Bird)
 * [Abram Hindle](#Hindle)
 
-Given that only two candidates were running for the two open positions on the SC, the Steering Committee decided not to hold an election and add both candidates directly to the Steering Committe.
+Given that only two candidates were running for the two open positions on the SC, the Steering Committee decided not to hold an election and add both candidates directly to the Steering Committee.
 
 ## <a name="Bird"></a>Chris Bird
 
